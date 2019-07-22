@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title> Home </title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+</head>
+    <body >
+            <!-- start header -->
+        <div class="header">
+             <div class ="navbar">
+        <div class="container">
+           <h2> job<span>4</span>U</h2>
+          <ul>
+              <li class="active"><a href="index.html"> Home </a></li>
+              <li> <a href="about.html">About</a></li>
+              <li> <a href="login.html">Login</a></li>
+              <li> <a href="#">search</a></li>
+              <li> <a href="contactUs.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+  <!-- end header -->
+      <script>
+	// start for validate user name
+			var NameReg =new RegExp('^(([a-zA-Z]+){3})+');
+			var Name;
+			function NameValidate()
+			{
+			if (document.getElementById("username").value!="")
+			{
+				Name= document.getElementById("username").value;
+				if ( NameReg.test(Name))
+					{
+			
+				document.getElementById("lable2").innerHTML="<img src='images/valid.png' width='20px'/>";
+				document.getElementById("pass").focus();
+					}
+			else 
+					{	   
+				document.getElementById("lable2").innerHTML="<img src='images/notvalid.png' width='20px'/>";
+				document.getElementById("username").focus();
+				document.getElementById("username").select();
+		
+					}
+			}
+		  else
+			{ 	  
+		  document.getElementById("lable2").innerHTML="";
+			}
+		}
+		  function fun ()
+			  {
+			   document.getElementById("username").value="";
+			  }
+		// start for validate user name
+		 
+		function checkusername_pass()
+		{
+			if (document.getElementById("username").value!="Username")
+			{
+				if(document.getElementById("username").value=="Mahmoud"&&document.getElementById("pass").value=="123")
+				{
+					window.open('index.html','','_black');
+				}
+				else
+				{
+                  alert('this user name is not exist');
+				}
+			}
+		}
+        </script>
+
+          <div class="header">
+                <div class="slider" >
+                 <div class="container">
+                     <div class="banner" >
+                         <input  class ="inputt" id="username" type="text" value="" placeholder="username"><br>
+                         <input class ="inputt"  id="pass" type="password" value="" placeholder="password">
+                           <br>
+                         <button onclick="checkusername_pass()">login</button><br><br><br><br><br>
+                     </div>
+               
+            </div>
+        </div>
+  
+        </div> 
+   
+        
+  <!-- start FOOTER-->
+        <div class="footer" >
+            <div class="container">
+           <span> Copyright &copy; 2019 job4U </span>
+                <ul>
+                    <li> <img src="images/face.jpg" alt ="facebook"></li>
+                     <li> <img src="images/twitter.jpg" width="35" height="35" alt ="twitter"></li>
+                     <li> <img src="images/face.jpg" alt ="facebook"></li>
+                </ul>
+            </div>
+        </div>
+            <!-- end footer-->
+      
+        <script src="js/main.js"></script>
+    </body>
+</html>

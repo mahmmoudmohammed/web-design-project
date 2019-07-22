@@ -1,0 +1,361 @@
+/* strt main rules */
+
+.container {
+    width: 1170px;
+    margin: auto;
+}
+.clearfix { clear: both }
+/* end main roles */
+
+
+/* start header */
+.header .slider {
+    background-image: url(/images/012.jpg);
+    
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+}
+
+.header .slider .banner {
+    padding-top: 200px;
+    text-align: center;
+    height: 300px;
+    
+}
+.header .slider .banner h2
+{
+    font-size: 50px
+    margin: 0 auto;
+    width: 800px;
+    
+}
+.header .slider .banner p
+{
+    font-size: 18px;
+    margin: 0 auto;
+    width: 700px;
+        text-align: left;
+
+}
+.inputt
+{
+     background: rgba(49,60,61,0.9);
+    font-size: 20px;
+    margin-left:0 auto;
+    width: 600px;
+    height: 40px;
+    text-align: left;
+    margin-top:20px;
+    margin-bottom:20px;
+    color: white;
+}
+.header .slider .banner label
+{
+    float: right;
+}
+.header .slider .banner button
+{
+    background-color: dodgerblue;
+    width: 140px;
+    color: azure;
+    
+}
+
+.header .navbar {
+    background-color: #252f31;
+    color: #fff;
+    overflow: hidden;
+}
+.header .navbar h2,
+.header .navbar h2 span{font-family:tahom,aria}
+.header .navbar h2 {
+    
+    text-transform: uppercase;
+    float: left;
+}
+.header .navbar h2 span { color: #2ecc71;}
+.header .navbar ul {
+    list-style: none;
+    padding-left: 0;
+    overflow: hidden;
+    float: right;
+}
+.header .navbar ul li { float: left; padding: 0px 10px 0px 10px;
+    border-left:1px solid azure }
+.header .navbar ul li a 
+{
+    color: azure;
+    text-decoration: none;
+}
+.header .navbar ul li a:hover,
+.header .navbar ul li.active a 
+
+{
+    color: aquamarine;
+}
+/* end header */
+/*start feturses  */
+.features { 
+overflow: hidden;
+padding-bottom: 30px;
+padding-top: 30px;
+}
+.features .feat {
+    float: left;
+    width: 33.3333333%;
+    height:  150px;
+}
+.features .feat a { color:dodgerblue; text-decoration: none;}
+.features .feat a:hover
+{text-decoration: underline;color:royalblue}
+.features .feat h2
+{ text-transform: uppercase; }
+.features .feat p
+{ 
+    line-height: 1.7; 
+    text-align: left;
+    padding-left: 5px;
+}
+/*end feturses  */
+
+/*start about me  */
+.about-me
+{
+    background-color:ghostwhite;
+    overflow: hidden;
+    
+}
+.about-me .image{
+    float: left;
+    width: 40%;
+}
+.about-me .image img{width: 100%;}
+.about-me .info
+{    float: left;
+    width:60%;
+}
+
+.about-me .info p  { padding-left: 10px; line-height: 1.7;}
+.about-me .info h2 { padding-left: 10px;color: dodgerblue}
+
+.about-me .info .hobbies
+{
+    overflow:hidden;
+    margin: 20px;
+}
+.about-me .info .hobbies > div {
+    float: left;
+    width: 50%;
+    min-height: 100px;
+    
+}
+.about-me .info .hobbies > div h3{
+    color:royalblue;
+}
+
+/*end about me  */
+
+/* start skill*/
+.my-skills
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+
+.my-skills .skills,
+.my-skills .progress 
+{
+    width: 50%;
+    float: left;
+}
+.my-skills .skills h2 { margin: 25px 0 26px 40px ; color:royalblue;}
+.my-skills .skills p
+{
+    margin: 0 0 10px 40px;
+    line-height: 1.6;
+    color: #666;
+} 
+.my-skills .skills p:last-of-type{ margin-top: 25px;}
+.my-skills .progress .interests{margin-left:50px }
+.my-skills .progress .interests h3{color:black;}
+.my-skills .progress .interests div {
+    background-color: #F2F2F2;
+    height: 25px;
+}
+.my-skills .progress .interests div span {
+    background-color:blueviolet;
+    display: block;
+    line-height: 25px;
+    text-align: right;
+}
+/* end skill*/
+
+/* start resume*/
+.resume {
+    background-color: #F2F2F2;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    padding: 90px 0;
+}
+.resume button{
+    background-color: royalblue;color: white;
+    padding: 8px 25px;
+    border: 0px;
+    text-align: center;
+}
+/* end resume*/
+
+/* start education*/
+.my-education
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    overflow: hidden;
+}
+.my-education .main,
+.my-education .exp 
+{
+    width: 50%;
+    float: left;
+}
+
+/* start education*/
+
+/* start testimonials*/
+.testimonials {
+    background-color: #F2F2F2;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+}
+.testimonials q{line-height: 1.7;color: #666;font-size: 18px;font-style: italic;font-family: tahoma,sans-serif;
+font-weight: bold;}
+
+.testimonials h3{color: #777}
+
+.testimonials ul 
+{
+    list-style: non;
+    padding-left:0;
+    text-align: center;
+    margin-top: 10px
+    
+}
+.testimonials ul li{
+    width :20px;
+    height: 20px;
+    border: 1px solid blueviolet;
+    display: inline-block;
+    cursor: pointer;
+}
+.testimonials ul li.active,.testimonials ul li:hover  { background-color:blueviolet;     border: 1px solid blueviolet;
+}
+/* end testimonials*/
+
+/* start portofolio*/
+.portfolio
+{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+.portfolio .our-work{overflow: hidden;}
+.portfolio .our-work > div 
+{
+    float: left;
+    width: 33.33333%;
+    margin-bottom: 10px;
+}
+.portfolio .our-work > div img
+{
+    width:94%;
+    margin: 10px;
+    padding: 3px;
+    background-color: #FFF;
+    border: 1px solid #CCC;
+    box-shadow: 10px 10px 12px #CCC
+}
+/* end portofolio*/
+/* start contact me */
+.contact 
+{ 
+    background-color: #252F31;
+    overflow: hidden;
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.contact h2 {color: #FFF;margin-left: 40px;}
+.contact p{color: #6A6E71}
+.contact .info ,
+.contact .form 
+{
+    width: 50%;
+    float: left;
+}
+.contact .form label{
+    display: block;
+    color: #D1D6DA;
+    margin: 10px 0;
+}
+.contact .form input[type="text"]{
+    background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    margin-bottom: 10px;
+    
+}
+.contact .form textarea
+{
+      background-color: #4B5557;
+    color: #FFF;
+    padding: 10px;
+    border: 0;
+    width: 80%;
+    height:180px;
+}
+.contact .form input[type="submit"]
+{
+    background-color: #191E22;
+    color: #FFF;
+    padding: 10px 20px ;
+    border: 0;
+    margin-top: 10px;
+}
+    
+/* end contact me */
+
+/* start footer */
+.footer
+{
+    background-color:#191e22 ;
+    color: #6A6E71;
+    padding: 20px 0;
+    text-align: center
+}
+.footer ul 
+{
+    list-style: none;padding-left: 0;
+}
+.footer ul li{display: inline-block;
+padding-right: 10px;}
+/* end footer */
+/* Start my frame work */
+/* End my frame work */
+
+.about
+{
+    width: 25%;
+    float: left;
+    min-height: 100px;
+    max-height: 550px;
+    margin-right: 70px;
+    overflow: auto;
+}
